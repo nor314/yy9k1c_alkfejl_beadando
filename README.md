@@ -33,7 +33,7 @@ A program célja, átfogóbb ismereteket adni a Tanganyika-tó sügéri, mint d�
 
 **Fajták: (táplálkozás ill. viselkedés –esetleg forma- alapján)**
 
-- ** Algázók:** Kis- és nagytestű, főleg algával, növényekkel, ill. növényi származékokkal táplálkoznak
+- Algázók: Kis- és nagytestű, főleg algával, növényekkel, ill. növényi származékokkal táplálkoznak
 - ****** Csigasügérek:** leginkább mindenevő halfajok csoportja, jellegzetességük, hogy üres csigaházakban élnek és szaporodnak
 - ****** Homoki sügérek:** főleg mindenevők, jellemzően talajlakó sügérfajták
 - ****** Kis testű ikrázók:** formailag és táplálkozásban változatok, általában 10 cm alatti egyéb sügérfélék
