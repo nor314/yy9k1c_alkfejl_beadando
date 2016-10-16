@@ -1,4 +1,4 @@
-## **Tanganyika sügéres akvárium**
+**Tanganyika sügéres akvárium**
 
 Készítette: Bereczki Norbert
 
