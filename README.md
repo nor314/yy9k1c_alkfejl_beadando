@@ -60,6 +60,8 @@ A program célja, átfogóbb ismereteket adni a Tanganyika-tó sügéri, mint d�
 
 Vegyünk példának egy egyszerű folyamatot:
 
+![](docs/images/folyamatabra.jpg)
+
 **Meglévő akvárium szerkesztése:**
 
 1. A felhasználó az oldalra érkezve, bejelentkezik vagy regisztrál
@@ -73,6 +75,8 @@ Vegyünk példának egy egyszerű folyamatot:
 ##### **2.1. Architektúra terv**
 
 ###### **2.1.1. Adatmodell:**
+
+![](docs/images/dbmodel.jpg)
 
 ###### **2.1.2. Oldaltérkép:**
 
@@ -115,10 +119,19 @@ Vegyünk példának egy egyszerű folyamatot:
 
 **Főoldal**
 
+![](docs/images/Home_page.jpg)
+
 **Regisztrációs oldal**
 
+![](docs/images/Registration_page.jpg)
+
 **Profil oldal**
+![](docs/images/Profile_page.jpg)
 
 **User oldal**
 
+![](docs/images/User_page.jpg)
+
 **Sügér adatok**
+
+![](docs/images/Chiclid_page.jpg)
