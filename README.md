@@ -6,7 +6,7 @@ Készítette: Bereczki Norbert
 
 ##### **1.1. Célkitűzés, projektindító dokumentum**
 
-A program célja, átfogóbb ismereteket adni a Tanganyika-tó sügéri, mint díszállatok tartásáról egyoldali alkalmazás felhasználásával.  Lehetőség legyen böngészni, ill. ismerkedni az egyes típusokkal, fajtákkal, továbbá akváriumi tartásukról minimális információkat szerezni. Vendégként böngészni, regisztrálni, felhasználóként pedig bejelentkezni, hirdetést feladni, akváriumot összeállítani és vezetni az ismert halfajtákból.
+A program célja, átfogóbb ismereteket adni a Tanganyika-tóban őshonos sügérek, mint díszállatok tartásáról egyoldali alkalmazás felhasználásával.  Lehetőség legyen böngészni, ill. ismerkedni az egyes típusokkal, fajtákkal, továbbá akváriumi tartásukról minimális információkat szerezni. Vendégként böngészni, regisztrálni, felhasználóként pedig bejelentkezni, hirdetést feladni, akváriumot összeállítani és vezetni az ismert halfajtákból.
 
 ###### **Funkcionális követelmények:**
 
