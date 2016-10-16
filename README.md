@@ -10,30 +10,30 @@ A program célja, átfogóbb ismereteket adni a Tanganyika-tó sügéri, mint d�
 
 ###### **Funkcionális követelmények:**
 
-- **** Regisztráció
-- **** Bejelentkezés
-- **** Csak vendégként elérhető funkciók
-  - **oo** az ismert, listában szereplő halakkal való ismerkedés
-  - **oo** keresés a listából
-  - **oo** hirdetések böngészése
-- **** Csak bejelentkezett felhasználók által elérhető (plusz) funkciók
-  - **oo** saját akvárium létrehozása (benne az ismert sügérek összeválogatásával)
-  - **oo** meglévő akvárium szerkesztése
-  - **oo** meglévő akvárium törlésére
-  - **oo** hirdetés kiírása/szerkesztése
+- Regisztráció
+- Bejelentkezés
+- Csak vendégként elérhető funkciók
+  - az ismert, listában szereplő halakkal való ismerkedés
+  - keresés a listából
+  - hirdetések böngészése
+- Csak bejelentkezett felhasználók által elérhető (plusz) funkciók
+  - saját akvárium létrehozása (benne az ismert sügérek összeválogatásával)
+  - meglévő akvárium szerkesztése
+  - meglévő akvárium törlésére
+  - hirdetés kiírása/szerkesztése
 
 ###### **Nem funkcionális követelmények:**
 
-- **** Hibás adat esetén jelzés, jól bevitt adatok maradjanak az űrlapban. A funkciók jelszóval védettek, és a jelszavak védelme a háttérben.
-- **** Gyors működés
-- **** Könnyű kezelhetőség/áttekintés, követhető elrendezés
-- **** Bővíthetőség, fájlcsoportosítás
+- Hibás adat esetén jelzés, jól bevitt adatok maradjanak az űrlapban. A funkciók jelszóval védettek, és a jelszavak védelme a háttérben.
+- Gyors működés
+- Könnyű kezelhetőség/áttekintés, követhető elrendezés
+- Bővíthetőség, fájlcsoportosítás
 
 ##### **1.2. Szakterületi fogalomjegyzék**
 
 **Fajták: (táplálkozás ill. viselkedés –esetleg forma- alapján)**
 
-- ****** Algázók:** Kis- és nagytestű, főleg algával, növényekkel, ill. növényi származékokkal táplálkoznak
+- ** Algázók:** Kis- és nagytestű, főleg algával, növényekkel, ill. növényi származékokkal táplálkoznak
 - ****** Csigasügérek:** leginkább mindenevő halfajok csoportja, jellegzetességük, hogy üres csigaházakban élnek és szaporodnak
 - ****** Homoki sügérek:** főleg mindenevők, jellemzően talajlakó sügérfajták
 - ****** Kis testű ikrázók:** formailag és táplálkozásban változatok, általában 10 cm alatti egyéb sügérfélék
