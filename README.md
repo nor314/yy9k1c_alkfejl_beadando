@@ -76,7 +76,7 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ###### **2.1.1. Adatmodell:**
 
-![](docs/images/dbmodel.jpg)
+![](docs/images/dbmodel.png.jpg)
 
 ###### **2.1.2. Oldaltérkép:**
 
@@ -126,6 +126,7 @@ Vegyünk példának egy egyszerű folyamatot:
 ![](docs/images/Registration_page.jpg)
 
 **Profil oldal**
+
 ![](docs/images/Profile_page.jpg)
 
 **User oldal**
