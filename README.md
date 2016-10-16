@@ -10,7 +10,7 @@ A program célja, átfogóbb ismereteket adni a Tanganyika-tó sügéri, mint d�
 
 ###### **Funkcionális követelmények:**
 
-- **** Regisztráció
+- **** Regisztráció
 - **** Bejelentkezés
 - **** Csak vendégként elérhető funkciók
   - **oo** az ismert, listában szereplő halakkal való ismerkedés
