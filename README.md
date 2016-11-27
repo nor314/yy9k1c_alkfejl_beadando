@@ -100,18 +100,25 @@ Vegyünk példának egy egyszerű folyamatot:
 ###### **2.1.3. Végpontok**
 
 - GET/: főoldal
-- GET/advert: hirdetések oldal
 - GET/login: bejelentkezés
 - POST/login: bejelentkező adatok felküldése
-- GET/login/signup: regisztráció
-- POST/login/signup: regisztrációs adatok felküldése
+- GET/register: regisztráció
+- POST/register: regisztráció beküldése
 - GET/logout: kijelentkezés
-- GET/profile: profiladatok
-- GET/aquarium/list: saját akváriumi halak listája oldal
-- GET/aquarium/create: új akvárium létrehozása
-- GET/chiclid/id: sügér adatok
-- POST/chiclid/create: új sügér felvitele
-- POST/advert/create: új hirdetés feladása
+- GET/fishes: hala listázása a főoldalon
+- GET/fishes/create: új hal
+- POST/fishes/create: új hal adatainak felvitele
+- GET/fishes/:id/edit hal adatok
+- POST/fishes/:id/edit hal adatok szerkesztése
+- GET/fishes/:id/delete hal törlése
+- GET/ads: hirdetések oldal
+- GET/ownAds: saját hirdetések
+- GET/ads/create: hirdetés létrehozása
+- POST/ads/create: hirdetés adatainak felküldése
+- GET/ads/:id/edit: hirdetés adatai
+- POST/ads/:id/edit: hirdetés adatainak szerkesztése
+- POST/ads/:id/delete: hirdetés törlése
+
 
 ##### **2.2. Felhasználói-felület modell**
 
@@ -125,10 +132,6 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ![](docs/images/Registration_page.jpg)
 
-**Profil oldal**
-
-![](docs/images/Profile_page.jpg)
-
 **User oldal**
 
 ![](docs/images/User_page.jpg)
@@ -136,3 +139,18 @@ Vegyünk példának egy egyszerű folyamatot:
 **Sügér adatok**
 
 ![](docs/images/Chiclid_page.jpg)
+
+
+###### **2.2.2.Oldalképek:**
+
+**Főoldal**
+
+![](docs/images/home_scrsh.png)
+
+**Regisztrációs oldal**
+
+![](docs/images/reg_scrsh.png)
+
+**Bejelentkezés oldal**
+
+![](docs/images/login_scrsh.png)
