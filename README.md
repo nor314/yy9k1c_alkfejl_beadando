@@ -118,6 +118,7 @@ Vegyünk példának egy egyszerű folyamatot:
 - GET/ads/:id/edit: hirdetés adatai
 - POST/ads/:id/edit: hirdetés adatainak szerkesztése
 - POST/ads/:id/delete: hirdetés törlése
+- GET/search: keresés
 
 
 ##### **2.2. Felhasználói-felület modell**
