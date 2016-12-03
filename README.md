@@ -133,10 +133,6 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ![](docs/images/Registration_page.jpg)
 
-**User oldal**
-
-![](docs/images/User_page.jpg)
-
 **Sügér adatok**
 
 ![](docs/images/Chiclid_page.jpg)
