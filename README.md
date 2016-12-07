@@ -99,19 +99,22 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ###### **2.1.3. Végpontok**
 
-- GET/: főoldal
+- GET/: főoldal/welcome
 - GET/login: bejelentkezés
 - POST/login: bejelentkező adatok felküldése
 - GET/register: regisztráció
 - POST/register: regisztráció beküldése
 - GET/logout: kijelentkezés
-- GET/fishes: hala listázása a főoldalon
-- GET/fishes/create: új hal
-- POST/fishes/create: új hal adatainak felvitele
+- GET/fishes: halak listázása a főoldalon
+- GET/fishes/:id/ hal adatok
+- GET/ownFishes: saját halak listázása a főoldalon
+- GET/fish/create: új hal
+- POST/fish/create: új hal adatainak felvitele
 - GET/fishes/:id/edit hal adatok
 - POST/fishes/:id/edit hal adatok szerkesztése
 - GET/fishes/:id/delete hal törlése
-- GET/ads: hirdetések oldal
+- GET/ad: hirdetések oldal
+- GET/ads/:id: egy hirdetés 
 - GET/ownAds: saját hirdetések
 - GET/ads/create: hirdetés létrehozása
 - POST/ads/create: hirdetés adatainak felküldése
