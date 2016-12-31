@@ -141,7 +141,7 @@ Vegyünk példának egy egyszerű folyamatot:
 ![](docs/images/Chiclid_page.jpg)
 
 
-###### **2.2.2.Oldalképek:**
+###### **2.2.2.Oldalképek (néhány példa):**
 
 **Főoldal**
 
@@ -154,3 +154,67 @@ Vegyünk példának egy egyszerű folyamatot:
 **Bejelentkezés oldal**
 
 ![](docs/images/login_scrsh.png)
+
+###3.	Implementáció
+
+######3.1.1. Fejlesztőkörnyezet
+
+Webes IDE: **ADONIS**
+
+#####4.4.Tesztesetek
+* User
+  * Felhasználó létrehozása
+  * Bejelentkezés
+  * Új hal hozzáadása
+  * Új hirdetés hozzáadása
+  * Hal törlése
+
+  
+###5.	Felhasználói dokumentáció
+
+**Futtatáshoz szükséges operációs rendszer:** Tetszőleges operációs rendszer
+
+**A futtatáshoz szükséges hardver:** Operációs rendszerek szerint megadva
+
+**Egyéb követelmények:** Internet böngésző telepítése, JavaScript ajánlott
+
+**Program használata:**
+
+1. Böngészőben nyissuk meg a főoldalt
+2. Jobb felső sarokban kattintsunk a Belépés feliratra
+3. Belépés/Regisztráció után hozzáférünk jogokhoz.
+4. Új hal hozzáadása gombra kattintva tudunk új halakat felvenni a listába
+5. Töltsük ki az űrlapot
+6. Hibás adatok esetén az űrlap jelezni fogja a hibát
+7. Hozzáadás gombra kattintva mentsük el az adatokat
+8. A hal oldalán: Törlés gombra kattintva törölhetjük a halat
+9. A hal oldalán: szerkeszt gombra kattintva a szerkesztés oldalra jutunk
+10. Hirdetések esetén hasonlóan
+
+###6.	Fejlesztői dokumentáció:
+
+## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+
+##  AJAX-os funkció:
+
+* ajaxLogin:
+	* AJAX-os bejelentkezés, létrehoz egy modális dialógusablakot, ahol meg lehet adni az emailt és a jelszót, a belépés gombra 	kattintva az /ajax/login oldalra küldi az űrlap tartalmát. Hibás adatok esetén kiírja, hogy sikertelen, a mégse gombra kattintva eltűnik a modális ablak.
+	
+* ajaxDelete:
+	* AJAX-os törlés, egy modális ablakban megerősítést kér a felhasználótól, hogy biztosan törli-e az adott halat, az Igen gombra kattintva megtörténik a törlés és eltűnik a modális ablak, a mégse gombra kattintva eltűnik a modális ablak.
+  
+* ajaxDelete (2):
+	* AJAX-os törlés, egy modális ablakban megerősítést kér a felhasználótól, hogy biztosan törli-e az adott hirdetést, az Igen gombra kattintva megtörténik a törlés és eltűnik a modális ablak, a mégse gombra kattintva eltűnik a modális ablak.
+
+
+	
+## Tesztelés
+
+* Funkcionális tesztelés [Selenium IDE-vel](https://addons.mozilla.org/hu/firefox/addon/selenium-ide/)
+* Először a plugint kell telepíteni majd a tesztesetek a File/Open Test Suite menüpontban tölthetőek be a test mappában lévő testsuite fájlból.
+* Tesztesetek:
+	* Bejelentkezéslogin fájl)
+	* Regisztráció(register fájl)
+	* Hal hozzáadása(addnewfish fájl)
+	* Hal törlése(deletefish fájl)
+  * Hirdetés hozzáadása(addnewad fájl)
