@@ -157,11 +157,11 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ###3.	Implementáció
 
-######3.1.1. Fejlesztőkörnyezet
+#####3.1. Fejlesztőkörnyezet
 
 Webes IDE: **ADONIS**
 
-#####4.4.Tesztesetek
+#####3.2 Tesztesetek
 * User
   * Felhasználó létrehozása
   * Bejelentkezés
@@ -170,7 +170,7 @@ Webes IDE: **ADONIS**
   * Hal törlése
 
   
-###5.	Felhasználói dokumentáció
+###4.	Felhasználói dokumentáció
 
 **Futtatáshoz szükséges operációs rendszer:** Tetszőleges operációs rendszer
 
@@ -191,7 +191,7 @@ Webes IDE: **ADONIS**
 9. A hal oldalán: szerkeszt gombra kattintva a szerkesztés oldalra jutunk
 10. Hirdetések esetén hasonlóan
 
-###6.	Fejlesztői dokumentáció:
+###5.	Fejlesztői dokumentáció:
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
@@ -213,7 +213,7 @@ Webes IDE: **ADONIS**
 * Funkcionális tesztelés [Selenium IDE-vel](https://addons.mozilla.org/hu/firefox/addon/selenium-ide/)
 * Először a plugint kell telepíteni majd a tesztesetek a File/Open Test Suite menüpontban tölthetőek be a test mappában lévő testsuite fájlból.
 * Tesztesetek:
-	* Bejelentkezéslogin fájl)
+	* Bejelentkezés(login fájl)
 	* Regisztráció(register fájl)
 	* Hal hozzáadása(addnewfish fájl)
 	* Hal törlése(deletefish fájl)
